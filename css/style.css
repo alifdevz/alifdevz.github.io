@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 30px;
+    background-color: #1e6f5c;
+    color: white;
+}
+
+.jumbotron > p {
+    color: #e6dd3b;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+h2, h3 {
+  color: #29bb89;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    background-color: #289672;
+    padding: 5px;
+    position: sticky;
+    text-align: center;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: unset;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+header {
+  display: inline;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+  float: right;
+  width: 24%;
+}
+
+.profile header {
+  text-align: center;
+  object-position: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+footer {
+    padding: 16px;
+    color: gray;
+    background-color: #e6dd3b;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+  #content, aside {
+      width: 100%;
+      padding: 0;
+  }
+}
